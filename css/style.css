@@ -13,7 +13,7 @@ body{
     overflow: hidden;
 }
 
-button_1{
+.button_1{
     height:40px;
     background:#e8491d;
     border:0;
@@ -36,7 +36,7 @@ ul{
 }
 /* header */
 header{
-    background: #fff;
+    background: antiquewhite;
     color: #000;
     padding-top:30px;
     min-height: 70px;
@@ -48,6 +48,11 @@ header a{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
+}
+
+.first-letter{
+    color:coral;
+    font-weight: italic;
 }
 
 header li{
@@ -76,7 +81,7 @@ header .highlight, header .current a{
 }
 
 header .highlight, header .not-current a{
-    color:#000;
+    color: #000;
     font-weight:bold;
     font-style:italic;
 }
