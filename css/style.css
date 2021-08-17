@@ -112,11 +112,15 @@ header a:hover{
 }
 
 .photo-1{
-    margin-right: 100px;
+    margin-left: 10%;
 }
 
 .photo-2{
-    margin-right: 100px;
+    margin-right: 40%;
+}
+
+.photo-3{
+    margin-right: 75%;
 }
 
 
