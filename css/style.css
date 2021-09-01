@@ -38,9 +38,9 @@ ul{
 header{
     background: antiquewhite;
     color: #000;
-    padding-top:30px;
+    padding-top:15px;
     padding-bottom:15px;
-    min-height: 70px;
+    min-height: 50px;
     border-bottom: #e8491d 3px solid;
 }
 
@@ -172,9 +172,13 @@ header a:hover{
 }
 
 footer{
-    padding: 20px;
-    margin-top:20px;
-    color:#fff;
-    background-color:#e8491d;
+    position:fixed;
+    bottom: 0px;
+    padding: 15px;
+    margin-top:15px;
+    border-top: #e8491d 3px solid;
+    width: 100%;
+    color:#000;
+    background-color:antiquewhite;
     text-align:center;
 }
