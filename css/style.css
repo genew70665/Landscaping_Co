@@ -39,8 +39,8 @@ ul{
 header{
     background: antiquewhite;
     color: #000;
-    padding-top:15px;
-    padding-bottom:15px;
+    padding-top:10px;
+    padding-bottom:10px;
     min-height: 50px;
     border-bottom: #e8491d 3px solid;
 }
@@ -54,13 +54,13 @@ header a{
 
 .first-letter{
     color:coral;
-    font-weight: italic;
+    font-weight: bold;
 }
 
 header li{
     float: left;
     display: inline;
-    padding: 0 20px 0 20px;
+    padding: 0 20px 0 10px;
 }
 
 header #branding{
@@ -107,6 +107,7 @@ header a:hover{
 
 .container{
     display:inline-flex;
+    margin-left:10px;
     width:100%;
     height:400px;
     margin-top:20px;
@@ -172,7 +173,7 @@ header a:hover{
     width:65%;
 }
 
-footer{
+.bottom{
     position:fixed;
     bottom: 0px;
     padding: 15px;
@@ -362,9 +363,10 @@ header a:hover{
 }
 
 footer{
-    padding: 20px;
-    margin-top:20px;
+    padding: 10px;
+    margin-top:10px;
     color:#fff;
     background-color:#e8491d;
     text-align:center;
+    height:30px;
 }
